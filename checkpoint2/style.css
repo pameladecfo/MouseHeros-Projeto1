@@ -109,3 +109,96 @@ footer{
     font-size: 40px;
     margin-left: 20px;
 }
+
+
+.alterarperfil{
+    background-color: #ededed;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.cor_2{
+    text-decoration: none;
+    color:  #929292;
+}
+
+.bc {
+    padding-top: 15px;
+}
+.dados {
+    font-size: 22px;
+    color: #929292;
+}
+
+.main_2{
+    background-color: #d9d9d9;
+    height: 140vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:  #929292;
+ 
+ }
+
+.corpo {
+    height: 140vh;
+    width: 60%;
+    display: flex;
+}
+
+.alterar_foto{
+    
+    height: 140vh;
+    width: 30%;
+    text-align: center;
+}
+
+.alterar_dados{
+    
+    height: 140vh;
+    width: 70%;
+}
+
+.alterar_foto p{
+    padding-top: 65px;
+    font-size: 25px;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-between;
+}
+.opcoes_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_alterar{
+    width: 70%;
+    padding-top: 65px;
+    padding-left: 15px;
+}
+.mb-3{
+    padding-bottom: 9px;
+}
+
+.opcoes_3{
+    padding: 2px 45px 2px 45px;
+    background-color: #ededed;
+    border-radius: 3px;
+    color:  #929292;
+    font-size: 18px;
+}
+
+.estilo{
+    padding: 8px 85px 8px 85px;
+    background-color: #ededed;
+    border-radius: 3px;
+    color:  #929292;
+    font-size: 18px;
+}
