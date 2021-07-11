@@ -1,0 +1,86 @@
+.espaco{
+    margin-left: 50px;
+}
+
+.cor{
+    background-color:#ffffff;
+}
+
+.nav-link, .navbar-brand{
+    color: #929292;
+    
+}
+.navbar{
+    height: 6vh;
+}
+.perfil{
+    background-color: #929292;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inf{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 30vh;
+}
+
+.inf_pessoais{
+    color: #ededed;
+}
+.foto{
+    width: 150px;
+    height: 150px;
+    background-color: #ededed;
+    margin: 30px;
+    border-radius: 25px;
+}
+.alterar{
+    width: 25%;
+    height: 30vh;
+    position: relative;
+}
+.alterar_2{
+    position: absolute;
+    bottom: 0px;
+}
+.alterar_2 p{
+    padding: 2px 55px 2px 55px;
+    background-color: #ededed;
+    border-radius: 3px;
+    color:  #929292;
+    font-size: 20px;
+}
+.main{
+   background-color: #d9d9d9;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+footer{
+    background-color: #929292;
+    height: 15vh;
+}
+
+.doacoes{
+    background-color: #f9f9f9;
+    width:55%;
+    height: 40%;
+    margin-top: 35px;
+    border-radius: 25px;
+}
+
+.head_doacoes {
+    background-color: #ededed;
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    height: 8vh;
+
+}
