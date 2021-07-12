@@ -18,11 +18,10 @@
   <body>
      <!-- PÁGINA DE CADASTRO: Input de informações dos usuários para poderem entrar no sistema--> 
  
- <form">
-     <fieldset>
+
        <h1>Criar uma conta</h1>
          <div>
-             <label>Nome</label>
+             <label>Nome e Sobrenome</label>
              <input type="text" name="nome" id="nome">
          </div>
         <div>
@@ -30,12 +29,12 @@
             <input type="email" name="email" id="email" placeholder="Ex: voluntario@gmail.com">
         </div>
         <div>
-            <label for="idsenha">Senha</label>
-            <input type="password" id="idsenha" name="senha">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="senha">
         </div>
         <div>
-          <label for="idsenha">Confirmar Senha</label>
-          <input type="password" id="idsenha" name="senha">
+          <label for="cpassword">Confirmar Senha</label>
+          <input type="password" id="cpassword" name="senha">
       </div>
       <div>
         <label for="idtelefone">Número de Telefone</label>
@@ -56,14 +55,30 @@
           <input type="password" id="idcodigo" name="codigo">
         </div>
         <div>
-          <a href="index.html"><input type="submit" value="Cadastrar"/></a>	
+            <button onclick="register()">Cadastrar</button>
          </div>
-     </fieldset>
- </form>
+   
+
   
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+       <!-- Option 1: Bootstrap Bundle with Popper -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+       <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+  
+      <script src="js/main.js"></script>
+      <script>
+        // firebase.auth().onAuthStateChanged(function(user){
+        //     if(user){
+        //         window.location.href = "voluntario.html";
+        //         console.log("você está loggado");
+        //     }else console.log("você não está loggado");
+        // });
+       </script>
   </body>
 </html>
