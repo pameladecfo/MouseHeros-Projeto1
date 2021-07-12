@@ -202,3 +202,12 @@ footer{
     color:  #929292;
     font-size: 18px;
 }
+
+#sair {
+    padding: 2px 7px 2px 7px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border-width: 1px;
+    color: #f9f9f9;
+    background-color: black;
+}
