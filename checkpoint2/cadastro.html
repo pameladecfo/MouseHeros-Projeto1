@@ -10,7 +10,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <!-- Folha de Estilo CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-login.css">
 
     <title>Projeto Dividir o Pão</title>
   </head>
@@ -18,50 +18,98 @@
   <body>
      <!-- PÁGINA DE CADASTRO: Input de informações dos usuários para poderem entrar no sistema--> 
  
- <form">
-     <fieldset>
+<section class="corpo">
+      <div class="campo">
+        <div class="head_doacoes">
+          <h1>Criar uma conta</h1>
+        </div>
+        <div class="form-signin" > 
+            <form"  >
+                    <div  class="mb-3" >
+                        <label>Nome</label>
+                        <input type="text" class="form-control"  name="nome" id="nome" required>
+                    </div>
+                   <div>
+                       <label>Email</label>
+                       <input type="email" class="form-control" name="email" id="email" placeholder="Ex: voluntario@gmail.com" required>
+                   </div>
+                   <div>
+                       <label for="idsenha">Senha</label>
+                       <input type="password" class="form-control" id="idsenha" name="senha" required>
+                   </div>
+                   <div>
+                     <label for="idsenha">Confirmar Senha</label>
+                     <input type="password" class="form-control" id="idsenha" name="senha" required>
+                 </div>
+                 <div>
+                   <label for="idtelefone">Número de Telefone</label>
+                   <input type="text" class="form-control" id="idtelefone" name="telefone" placeholder="Ex: +55 (85)912345678" required>
+               </div>
+                   <div class="mb-3 form-check">
+                     <p>Qual a sua função no projeto?</p>
+                     <input type="checkbox" class="form-check-input" id="idcoordenador" name="coordenador" required>
+                     <label for="idcoordenador">Coordenador</label>
+                   </div>
+                   <div class="mb-3 form-check">
+                     <input type="checkbox" class="form-check-input"  id="idvoluntario" name="voluntario" required>
+                     <label for="idvoluntario">Voluntário</label>
+                   </div>
+                   <div>
+                     <p>Antes de finalizar o cadastro, informe o código de confirmação</p>
+                     <label for="idcodigo">Código</label>
+                     <input type="password" class="form-control" id="idcodigo" name="codigo" required>
+                   </div>
+                   <div>
+                     <button type="submit" class="btn btn-primary" >Cadastrar</button>
+                    </div>
+            </form>
+          </div>
+        </div>
+      
+  </section>
+<div> 
+<!--  <form" >
        <h1>Criar uma conta</h1>
          <div>
              <label>Nome</label>
-             <input type="text" name="nome" id="nome">
+             <input type="text" name="nome" id="nome" required>
          </div>
         <div>
             <label>Email</label>
-            <input type="email" name="email" id="email" placeholder="Ex: voluntario@gmail.com">
+            <input type="email" name="email" id="email" placeholder="Ex: voluntario@gmail.com" required>
         </div>
         <div>
             <label for="idsenha">Senha</label>
-            <input type="password" id="idsenha" name="senha">
+            <input type="password" id="idsenha" name="senha" required>
         </div>
         <div>
           <label for="idsenha">Confirmar Senha</label>
-          <input type="password" id="idsenha" name="senha">
+          <input type="password" id="idsenha" name="senha" required>
       </div>
       <div>
         <label for="idtelefone">Número de Telefone</label>
-        <input type="text" id="idtelefone" name="telefone" placeholder="Ex: +55 (85)912345678">
+        <input type="text" id="idtelefone" name="telefone" placeholder="Ex: +55 (85)912345678" required>
     </div>
         <div>
           <p>Qual a sua função no projeto?</p>
-          <input type="checkbox" id="idcoordenador" name="coordenador">
+          <input type="checkbox" id="idcoordenador" name="coordenador" required>
           <label for="idcoordenador">Coordenador</label>
         </div>
         <div>
-          <input type="checkbox" id="idvoluntario" name="voluntario">
+          <input type="checkbox" id="idvoluntario" name="voluntario" required>
           <label for="idvoluntario">Voluntário</label>
         </div>
         <div>
           <p>Antes de finalizar o cadastro, informe o código de confirmação</p>
           <label for="idcodigo">Insira o Código aqui</label>
-          <input type="password" id="idcodigo" name="codigo">
+          <input type="password" id="idcodigo" name="codigo" required>
         </div>
         <div>
-          <a href="index.html"><input type="submit" value="Cadastrar"/></a>	
+          <input type="submit" value="Cadastrar"/>
          </div>
-     </fieldset>
  </form>
-  
-
+</div>   
+ -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
