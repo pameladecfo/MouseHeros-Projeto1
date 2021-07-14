@@ -57,8 +57,6 @@ var firebaseConfig = {
         
         alert('user cadastrado')
 
-
-
      }).catch(function(error){
         var error_code = error.code
         var error_message = error.message
