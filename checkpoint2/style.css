@@ -211,3 +211,157 @@ footer{
     color: #f9f9f9;
     background-color: black;
 }
+
+.maior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 170vh;
+    width: 100%;
+    background-color:#929292
+    ;
+}
+.menor{
+    width: 605px;
+    padding: 75px 75px 35px 75px;
+    border-radius: 25px;
+    background-color:#f9f9f9;
+    color: #595959;
+    }
+.menor button{
+    width: 100%;
+    background-color: #6d6d6d;
+    color: #f9f9f9;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.cc{
+    margin-top: 0px;
+    border-radius: 25px 25px 0px 0px;
+    width: 355px;
+    border-width: 1px;
+    color: #767676;
+    background-color: #f3f3f3    ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+
+.cc p {
+    font-size: 20px;
+    padding: 5px 0 5px 0;
+    margin-bottom: 0px;
+
+}
+
+.possui p{
+    text-align: center;
+}
+
+.possui a {
+    text-decoration: none;  
+    color: #595959;
+}
+
+
+/* LOGIN */
+
+.maior_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color:#929292
+    ;
+}
+.menor_2{
+    width: 605px;
+    padding: 75px 75px 35px 75px;
+    border-radius: 25px;
+    background-color:#f9f9f9;
+    color: #595959;
+    }
+.menor_2 button{
+    width: 100%;
+    background-color: #6d6d6d;
+    color: #f9f9f9;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.cc_2{
+    margin-top: 0px;
+    border-radius: 25px 25px 0px 0px;
+    width: 355px;
+    border-width: 1px;
+    color: #767676;
+    background-color: #f3f3f3    ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+
+.cc_2 p {
+    font-size: 20px;
+    padding: 5px 0 5px 0;
+    margin-bottom: 0px;
+
+}
+
+
+
+/* RESETAR SENHA */
+
+.maior_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color:#929292
+    ;
+}
+.menor_3{
+    width: 505px;
+    padding: 75px 75px 35px 75px;
+    border-radius: 25px;
+    background-color:#f9f9f9;
+    color: #595959;
+    }
+.menor_3 button{
+    width: 100%;
+    background-color: #6d6d6d;
+    color: #f9f9f9;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.cc_3{
+    margin-top: 0px;
+    border-radius: 25px 25px 0px 0px;
+    width: 355px;
+    border-width: 1px;
+    color: #767676;
+    background-color: #f3f3f3    ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+
+.cc_3 p {
+    font-size: 20px;
+    padding: 5px 0 5px 0;
+    margin-bottom: 0px;
+
+}

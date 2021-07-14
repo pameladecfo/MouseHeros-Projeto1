@@ -18,8 +18,46 @@
   <body>
      <!-- PÁGINA DE CADASTRO: Input de informações dos usuários para poderem entrar no sistema--> 
  
-
-       <h1>Criar uma conta</h1>
+    <div class="maior">
+      <div class="cc">
+        <p>Criar uma conta</p>
+      </div>
+        <div class="menor">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome Sobrenome">
+          
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="email@gmail.com">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="password" placeholder="********">
+            </div>
+            <div class="mb-3">
+              <label for="cpassword" class="form-label">Confirmar senha</label>
+              <input type="password" class="form-control" id="cpassword" placeholder="********">
+          </div>
+            <div class="mb-3">
+                <label for="idtelefone" class="form-label">Número de Telefone</label>
+                <input type="text" class="form-control" id="idtelefone" placeholder="+55 (85) 9875-7575">
+            </div>
+            <div class="mb-3">
+              <p>Função</p>
+              <p>Coordenador | Cozinheiro | Entregador</p>
+          </div>
+            <div class="mb-3 opcoes">
+              <button onclick="register()">Cadastrar</button>
+            </div>
+            <div class="mb-3 possui">
+                <p ><a  href="login.html">Já possui uma conta? Entre aqui</a></p>
+            </div>
+        </div>
+      </div>
+        <!-- <div class="conta"><p>Criar uma conta</p></div>
+        <div class="menor">
          <div>
              <label>Nome e Sobrenome</label>
              <input type="text" name="nome" id="nome">
@@ -57,7 +95,7 @@
         <div>
             <button onclick="register()">Cadastrar</button>
          </div>
-   
+    </div> -->
 
   
 
@@ -73,12 +111,12 @@
   
       <script src="js/main.js"></script>
       <script>
-        // firebase.auth().onAuthStateChanged(function(user){
-        //     if(user){
-        //         window.location.href = "voluntario.html";
-        //         console.log("você está loggado");
-        //     }else console.log("você não está loggado");
-        // });
+        firebase.auth().onAuthStateChanged(function(user){
+            if(user){
+                window.location.href = "voluntario.html";
+                console.log("você está loggado");
+            }else console.log("você não está loggado");
+        });
        </script>
   </body>
 </html>
