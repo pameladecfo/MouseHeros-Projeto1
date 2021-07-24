@@ -20,10 +20,10 @@ var firebaseConfig = {
       password = document.getElementById('password').value
       cpassword = document.getElementById('cpassword').value
       nome = document.getElementById('nome').value
-    //   endereco = document.getElementById('endereco').value
       idtelefone = document.getElementById('idtelefone').value
-    //   funcaoprojeto = document.getElementById('funcaoprojeto').value
-
+      role = document.querySelector('input[name="role"]:checked').value;
+    //   role = document.getElementById('role').value
+//   endereco = document.getElementById('endereco').value
     
     if (validade_email(email) == false || validade_password(password) == false){
        alert('Email e Senha incorretos')
@@ -48,7 +48,7 @@ var firebaseConfig = {
         var user_data = {
             email : email,
             nome : nome,
-            // endereco : endereco,
+            role: role,
             telefone : idtelefone,
             last_login : Date.now()
         }

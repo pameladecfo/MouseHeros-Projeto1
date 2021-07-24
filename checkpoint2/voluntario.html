@@ -50,7 +50,8 @@
             <div class="inf"> 
                 <div class="foto"></div>
                 <div class="inf_pessoais">
-                    <h3>Nome Sobrenome</h3>
+                    <h3 id="nomeSobrenome"></h3>
+                    
                     <p>Cozinheiro | Entregador</p>
                     <p class="insumos">Pedido de insumos</p>
                 </div>
@@ -103,13 +104,36 @@
         <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
    
        <script src="js/main.js"></script>
+       <!-- <script src="js/realtime-database.js"></script> -->
        <script>
         firebase.auth().onAuthStateChanged(function(user){
             if(!user){
                 window.location.href = "login.html";
                 console.log("você não está loggado");
-            }else console.log("você está loggado");
+            }else if(user){
+                console.log("você está loggado");
+            
+                var user = auth.currentUser
+                var database_ref = database.ref()
+        
+                database_ref.child('users/' + user.uid).once('value', function(snapshot){
+                var data = snapshot.val();
+
+                console.log('nome: ' + data.nome);
+
+                var element = document.getElementById('nomeSobrenome');
+                element.innerHTML = data.nome;
+
+              });
+
+            }
+
+        
         });
+
+
+    
+
        </script>
   </body>
 </html>
