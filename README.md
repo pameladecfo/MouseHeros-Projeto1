@@ -22,7 +22,7 @@ O projeto é um PWA (híbrido entre _site_ e aplicativo) voltado para _smartphon
 ## Requisitos
 
 ### Requisitos implementados
-| Tabelas  |      São      |  Legais |
+| Requisitos Funcionais Básicos |     Descrição      |  Codificação |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
