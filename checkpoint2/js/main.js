@@ -22,8 +22,7 @@ var firebaseConfig = {
       nome = document.getElementById('nome').value
       idtelefone = document.getElementById('idtelefone').value
       role = document.querySelector('input[name="role"]:checked').value;
-    //   role = document.getElementById('role').value
-//   endereco = document.getElementById('endereco').value
+    
     
     if (validade_email(email) == false || validade_password(password) == false){
        alert('Email e Senha incorretos')
@@ -84,11 +83,6 @@ var firebaseConfig = {
         }
 
         database_ref.child('users/' + user.uid).update(user_data)
-        
-        
-
-
-
      }).catch(function(error){
         var error_code = error.code
         var error_message = error.message
@@ -158,3 +152,33 @@ function logout(){
     firebase.auth().signOut();
 }
 
+
+
+
+// INSERIR LISTA DE INSUMO
+var insumo = document.getElementById('insumo');
+
+function Lista(){
+    arroz = document.getElementById('arroz').value;
+    feijao = document.getElementById('feijao').value;
+    oleo = document.getElementById('oleo').value;
+    ovos = document.getElementById('ovos').value;
+    quentinha = document.getElementById('quentinha').value;
+    colheres = document.getElementById('colheres').value;
+
+        var user = auth.currentUser
+        var database_ref = database.ref()
+
+        var user_data = {
+            nome: "fulano",
+            feijao: feijao,
+            oleo: oleo,
+            ovos: ovos,
+            quentinha: quentinha,
+            colheres: colheres
+        }
+
+        database_ref.child('insumos/' + user.uid).set(user_data)
+        return alert('Atualizado com sucesso!');
+          
+ }

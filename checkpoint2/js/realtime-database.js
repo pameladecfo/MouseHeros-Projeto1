@@ -13,6 +13,7 @@ buttonInput.addEventListener('click', function(){
         telefoneInput.nodeValue, senhaInput.nodeValue, roleInput.nodeValue)
 });
 
+// Função pra guardar as informações do usuário no banco de dados realtime
 function create(nome,email,telefone,senha,role){
     var data = {
         nome: nome,
@@ -52,8 +53,7 @@ function alterar(){
         }
 
         database_ref.child('users/' + user.uid).update(user_data)
-        return alert('Atualizado com sucesso!');
-          
+        return alert('Atualizado com sucesso!');  
  }
 
 
