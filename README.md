@@ -24,12 +24,12 @@ O projeto é um PWA (híbrido entre _site_ e aplicativo) voltado para _smartphon
 ### Requisitos implementados
 |Requisitos Funcionais Básicos |     Descrição      |  Codificação |
 |----------|:-------------:|------:|
-| RF_B1. Cadastrar: |  O usuário precisa se cadastrar e fornecer informações pessoais como nome, número de telefone, função no projeto, e-mail e senha.|  |
-| RF_B2. Autenticação: |    Com o cadastro, o usuário precisa ser autenticado no banco de dados. Assim, com sua conta registrada no banco, ele pode fazer o login e logout.|   |
-| RF_B3. Login | O usuário precisa ser capaz de entrar na sua conta.|   |
-| RF_B4. Logout |  O usuário precisa ser capaz de sair da sua conta.|  |
-| RF_B5. Resetar senha |    O usuário precisa ser capaz de trocar sua senha, caso ele esqueça a mesma.|    |
-| RF_B6. Alterar informações pessoais | O usuário precisa ser capaz de alterar suas informações pessoais, como número de telefone, foto de perfil, nome, senha e função.|    |
+| RF_B1. Cadastrar: |  O usuário precisa se cadastrar e fornecer informações pessoais como nome, número de telefone, função no projeto, e-mail e senha.|Arquivo "js/realtime-database.js" - Linha 1 a 35  |
+| RF_B2. Autenticação: |    Com o cadastro, o usuário precisa ser autenticado no banco de dados. Assim, com sua conta registrada no banco, ele pode fazer o login e logout.| Arquivo “js/main.js” -  Linha 18 a 65  |
+| RF_B3. Login | O usuário precisa ser capaz de entrar na sua conta.| Arquivo “js/main.js” - Linha 68 a 92  |
+| RF_B4. Logout |  O usuário precisa ser capaz de sair da sua conta.| Arquivo “js/main.js” - Linha 151 a 153 |
+| RF_B5. Resetar senha |    O usuário precisa ser capaz de trocar sua senha, caso ele esqueça a mesma.| Arquivo “js/main.js” - 142 a 148   |
+| RF_B6. Alterar informações pessoais | O usuário precisa ser capaz de alterar suas informações pessoais, como número de telefone, foto de perfil, nome, senha e função.| Arquivo “js/realtime-database.js” - Linha 41 a 57   |
 
 
 |Requisitos Funcionais Fundamentais |     Descrição      |  Codificação |
