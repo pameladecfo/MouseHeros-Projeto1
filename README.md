@@ -51,6 +51,9 @@ O projeto é um PWA (híbrido entre _site_ e aplicativo) voltado para _smartphon
 | RF_S6. Mostrar as doações arrecadadas | O sistema mostra o valor que o projeto já recebeu em dinheiro.|     |
 
 
-## Sobre o Cliente
+## Como instalar
 
-O projeto Dividir o Pão é uma iniciativa que surgiu durante a pandemia, em março de 2021, para auxiliar pessoas em situação de rua a se alimentarem, atuando como um banco de captação e distribuição de alimentos. A missão do projeto é mitigar a fome de pessoas em situação de vulnerabilidade, por intermédio de um grupo de voluntários que tem como objetivo distribuir quentinhas pelas ruas e praças de Fortaleza - CE. 
+1- Baixe os códigos desse repositório
+2- Abra o relatório do checkpoint 3 e copie os códigos de configuração do firebase. Por questões de segurança optamos por não subir esses códigos para esse repositório, pois o mesmo é público.
+3- No arquivo main.js que está dentro da pasta js ("js/main.js"), cole o código que você copiou dentro das chaves do "var firebaseConfig={}". Como apresentado na imagem abaixo:
+![image](https://user-images.githubusercontent.com/86917791/128093513-99b79aa4-dc0d-4db0-8851-2dd274d0343f.png)
