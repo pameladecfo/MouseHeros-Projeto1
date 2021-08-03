@@ -50,3 +50,7 @@ O projeto é um PWA (híbrido entre _site_ e aplicativo) voltado para _smartphon
 | RF_S5. Mostrar o valor total dos pedidos de auxílio |    O sistema mostra o resultado do cálculo do valor total de auxílios requisitados para gasolina ou gás de cozinha.|   |
 | RF_S6. Mostrar as doações arrecadadas | O sistema mostra o valor que o projeto já recebeu em dinheiro.|     |
 
+
+## Sobre o Cliente
+
+O projeto Dividir o Pão é uma iniciativa que surgiu durante a pandemia, em março de 2021, para auxiliar pessoas em situação de rua a se alimentarem, atuando como um banco de captação e distribuição de alimentos. A missão do projeto é mitigar a fome de pessoas em situação de vulnerabilidade, por intermédio de um grupo de voluntários que tem como objetivo distribuir quentinhas pelas ruas e praças de Fortaleza - CE. 
