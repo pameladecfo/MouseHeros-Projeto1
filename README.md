@@ -53,7 +53,12 @@ O projeto é um PWA (híbrido entre _site_ e aplicativo) voltado para _smartphon
 
 ## Como instalar
 
-1- Baixe os códigos desse repositório
-2- Abra o relatório do checkpoint 3 e copie os códigos de configuração do firebase. Por questões de segurança optamos por não subir esses códigos para esse repositório, pois o mesmo é público.
-3- No arquivo main.js que está dentro da pasta js ("js/main.js"), cole o código que você copiou dentro das chaves do "var firebaseConfig={}". Como apresentado na imagem abaixo:
-![image](https://user-images.githubusercontent.com/86917791/128093513-99b79aa4-dc0d-4db0-8851-2dd274d0343f.png)
+  1 - Baixe os códigos desse repositório.
+  
+  2 - Abra o relatório do checkpoint 3 e copie os códigos de configuração do firebase. Por questões de segurança optamos por não subir esses códigos para esse repositório, pois o mesmo é público.
+  
+  3 - No arquivo main.js que está dentro da pasta js ("js/main.js"), cole o código que você copiou dentro das chaves do "var firebaseConfig={}". Como apresentado na imagem abaixo:
+
+![image](https://user-images.githubusercontent.com/86917791/128093877-de19266a-77c5-4971-a6fc-7ba703725e89.png)
+
+  4 - Com os passos anteriores concluídos, você pode abrir a aplicação no seu navegador.
