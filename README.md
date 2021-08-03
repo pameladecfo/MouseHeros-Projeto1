@@ -51,7 +51,7 @@ O projeto é um PWA (híbrido entre _site_ e aplicativo) voltado para _smartphon
 | RF_S6. Mostrar as doações arrecadadas | O sistema mostra o valor que o projeto já recebeu em dinheiro.|     |
 
 
-## Como instalar
+## Como instalar e executar a aplicação
 
   1 - Baixe os códigos desse repositório.
   
