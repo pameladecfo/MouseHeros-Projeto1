@@ -19,7 +19,7 @@ O projeto é um PWA (híbrido entre _site_ e aplicativo) voltado para _smartphon
 - Vanessa Rolim de Aquino 
 
 
-## Requisitos
+## Mapa de Funcionalidades
 
 ### Requisitos implementados
 |Requisitos Funcionais Básicos |     Descrição      |  Codificação |
